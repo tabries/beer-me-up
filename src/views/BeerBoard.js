@@ -39,6 +39,9 @@ const BeerBoard = () => {
 
   return (
     <>
+      <div className="boardTitle">
+        <h1>Beer me up!</h1>
+      </div>
       <div>
         <input
           type="number"
