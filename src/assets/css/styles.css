@@ -1,0 +1,14 @@
+
+.beerBoard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.beer {
+    border: 5px solid #dfb339;
+    border-radius: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
