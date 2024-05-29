@@ -1,7 +1,7 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
 categories:
-  - title: 'What's Changed'
+  - title: "What's Changed"
     labels:
       - 'change'
 change-template: '* [$TITLE]($URL) by @$AUTHOR'
