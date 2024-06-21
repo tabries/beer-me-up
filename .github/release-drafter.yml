@@ -9,7 +9,7 @@ autolabeler:
   branch:
     - '/stg\/.+/'
   title:
-    - '/Prod release/i'
+    - '/Prod\/.+/'
 exclude-labels:
   - 'prod-release'
 change-template: '* $TITLE by @$AUTHOR in https://github.com/caffeinetv/nexus-web/pull/$NUMBER'
