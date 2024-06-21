@@ -10,7 +10,7 @@ autolabeler:
     - '/stg/'
 exclude-labels:
   - 'prod-release'
-change-template: '* $TITLE by @$AUTHOR in [#$NUMBER]($URL)'
+change-template: '* $TITLE by @$AUTHOR in https://github.com/caffeinetv/nexus-web/pull/$NUMBER'
 version-resolver:
   major:
     labels:
