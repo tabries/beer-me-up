@@ -4,12 +4,9 @@ categories:
   - title: "What's Changed"
     labels:
       - 'change'
-autolabeler: 
-- label: 'prod-release'
-  branch:
-    - '/stg/'
-exclude-labels:
-  - 'prod-release'
+replacers:
+  - search: '/^\* \[Prod release\](.*)$/gm'
+    replace: ''
 change-template: '* $TITLE by @$AUTHOR in [#$NUMBER]($URL)'
 version-resolver:
   major:
